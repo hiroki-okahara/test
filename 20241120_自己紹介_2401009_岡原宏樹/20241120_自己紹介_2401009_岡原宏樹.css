@@ -1,0 +1,42 @@
+h1{
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 60px;
+    text-align: center;
+}
+h2{
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 60px;
+    text-align: center;
+}
+p{
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 30px;
+    text-align: center;
+}
+/*レスポンシブデザイン */
+/* 画面幅が600px以下の場合 */
+@media (max-width: 600px) {
+    body {
+        background-color: blue; /* 背景を赤色に変更 */
+    }
+    h1 {
+        font-size: 24px; /* 見出しを小さくする */
+    }
+    p {
+        font-size: 14px; /* 説明テキストを小さくする */
+    }
+}
+
+/* 画面幅が1280px以上の場合 */
+@media (min-width: 1280px) {
+    h1 {
+        font-size: 40px; /* 見出しを大きくする */
+    }
+
+    p{
+        font-size: 22px; /* 説明テキストを大きくする */
+    }
+}
