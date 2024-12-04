@@ -20,7 +20,7 @@ p{
 /* 画面幅が600px以下の場合 */
 @media (max-width: 600px) {
     body {
-        background-color: red; /* 背景を赤色に変更 */
+        background-color: yellow; /* 背景を黄色に変更 */
     }
 
     h1 {
